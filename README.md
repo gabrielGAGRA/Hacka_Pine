@@ -17,3 +17,8 @@ chatbot.vue: interface em vuetify
 Program.cs: Inicializa  
 AIController.cs: Faz a logica de chamar a API do gemini  
 appsettings.json: Guarda a chave de API de forma segura  
+
+
+
+O BACKEND É RODADO COM DOTNET RUN. O FRONTEND É RODADO COM NPM RUN DEV.  
+AS FUNÇÕES DE VECTOR STORAGE COM AS INFOS DO SCRAPPING E A TOOLS PARA COLETA DE PARÂMETROS FORAM IDEALIZADAS E CRIADAS, MAS NÃO PUDERAM SER IMPLEMENTADAS
