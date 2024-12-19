@@ -1,5 +1,4 @@
-# Hacka_Pine  
-LLM:  
+# LLM:  
 url.py: extrai os links dos botões do site do Banco Pine  
 scrapping.py: extrai os textos dos links do Banco Pine e trata para separar com um ponto a cada elemento da pagina, para extrair informações para treinar o chatbot (embedding desses textos em uma vector storage posteriormente)  
 
@@ -10,11 +9,11 @@ tools.json: function calling tool para extrair parâmetros de cotação para usa
 textos: textos extraidos do site  
 
 
-Front-end: 
+# Front-end: 
 chatbot.vue: interface em vuetify  
 
 
-Back-end:  
+# Back-end:  
 Program.cs: Inicializa  
 AIController.cs: Faz a logica de chamar a API do gemini  
 appsettings.json: Guarda a chave de API de forma segura  
