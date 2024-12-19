@@ -77,7 +77,7 @@ export default {
       messages: [],
       userInput: '',
       primaryColor: '#71242B',
-      secondaryColor: '#F9F9F9',
+      secondaryColor: '#b0a080', // White color
       backgroundColor: '#ffffff',
       accountId: 123,
     };
